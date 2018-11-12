@@ -1,0 +1,15 @@
+{
+  "name": "genetic-algorithm",
+  "version": "1.0.0",
+  "description": "My first genetic algorithm",
+  "main": "script.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^0.7.2",
+    "p5.dom":"latest"
+  }
+}

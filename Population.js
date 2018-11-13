@@ -66,7 +66,6 @@ class Population {
         let max_word = new Word(this.target_word, this.target_word);
         max_word.calculateWordFitness();
         let max_fitness = max_word.getFitness();
-        // console.log(max_fitness)
         // Normalized the fitness
         for (let i = 0; i < this.population_array.length; i++) {
             this.population_array[i].setNormalizedFitness((this.population_array[i].getFitness()) / max_fitness);
@@ -80,7 +79,6 @@ class Population {
                 this.mating_pool.push(this.population_array[i]);
             }
         }
-        console.log(this.mating_pool.length);
     }
     averagefitness() {
         let total_fitness = 0;

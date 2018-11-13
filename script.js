@@ -17,8 +17,8 @@ class Main {
                 clearInterval(loop);
             }
         };
-        this.mutation_rate = 0.01;
-        this.population_size = 500;
+        this.mutation_rate = 0.03;
+        this.population_size = 1000;
         this.target_word = "The Quick Brown Fox Jumps Over The Lazy Dog";
         this.average_fitness = 0;
         this.total_generations = 0;

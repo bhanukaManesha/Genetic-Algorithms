@@ -19,7 +19,7 @@ class Main {
         };
         this.mutation_rate = 0.03;
         this.population_size = 1000;
-        this.target_word = "The Quick Brown Fox Jumps Over The Lazy Dog";
+        this.target_word = "to be or not to be";
         this.average_fitness = 0;
         this.total_generations = 0;
         this.best_word = "";
